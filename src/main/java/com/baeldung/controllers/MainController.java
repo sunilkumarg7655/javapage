@@ -9,7 +9,7 @@ public class MainController {
 
     @GetMapping("/")
     public String viewIndexPage(Model model) {
-        model.addAttribute("header", "Webhook");
+        model.addAttribute("header", "Testing");
         return "index";
     }
 }
