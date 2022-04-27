@@ -9,7 +9,7 @@ public class MainController {
 
     @GetMapping("/")
     public String viewIndexPage(Model model) {
-        model.addAttribute("header", "java");
+        model.addAttribute("header", "java_page");
         return "index";
     }
 }
